@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <p>Nimi: <span id="i1"></span></p>
+    <p>Sukunimi: <span id="i2"></span></p>
+    <p>Lempinimi: <span id="i3"></span></p>
+    <p>Ikä: <span id="i4"></span></p>
+    <p>Ammatti: <span id="i5"></span></p>
+    <p>Kansalaisuus: <span id="i6"></span></p>
+
+
+    <script>
+        var henkilo, x;
+        henkilo = {
+            "enimi": "Reima",
+            "snimi": "Virtanen",
+            "lnimi": "Reivi",
+            "ika": 30,
+            "amma": "Maalivahti",
+            "kansa": "Suomi"
+        };
+        x = henkilo.enimi;
+        document.getElementById("i1").innerHTML = x;
+        x = henkilo.snimi;
+        document.getElementById("i2").innerHTML = x;
+        x = henkilo.lnimi;
+        document.getElementById("i3").innerHTML = x;
+        x = henkilo.ika;
+        document.getElementById("i4").innerHTML = x;
+        x = henkilo.amma;
+        document.getElementById("i5").innerHTML = x;
+        x = henkilo.kansa;
+        document.getElementById("i6").innerHTML = x;
+    </script>
+</body>
+
+</html>
