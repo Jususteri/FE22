@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="demo">Tulosta muuttujat ja muuttujatyypit tässä</p>
+    <script>
+        var x = 1;
+        var y = "1";
+        var nimi = "Kalle";
+        var tosi = false;
+        var epätosi = true;
+
+        document.getElementById("demo").innerHTML =
+            x + "(" + typeof(x) + ")" + " " + y + "(" + typeof(y) + ")" + " " + nimi +
+            "(" + typeof(nimi) + ")" + " " +
+            tosi + "(" + typeof(tosi) + ")" + " " + epätosi + "(" + typeof(epätosi) + ")";
+    </script>
+
+</body>
+
+</html>
