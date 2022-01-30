@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tehtävä 4</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Laskut ja laskutoimenpiteet</h1>
+    <p id="result"></p>
+    <script>
+        luku1 = 2;
+        luku2 = 6;
+
+        lasku1 = luku1 + '+' + luku2 + '=' + (luku1 + luku2);
+        lasku2 = luku1 + '-' + luku2 + '=' + (luku1 - luku2);
+        lasku3 = luku1 + '*' + luku2 + '=' + (luku1 * luku2);
+        lasku4 = luku1 + '/' + luku2 + '=' + (luku1 / luku2);
+        let laskut = new Array(lasku1, lasku2, lasku3, lasku4);
+
+        document.getElementById("result").innerHTML = laskut.join("<br>");
+    </script>
+</body>
+
+</html>
