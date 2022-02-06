@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>for-silmukka</title>
+
+    <body>
+        <h4>Tehtävä1</h4>
+        <span id="luvut"></span>
+        <script>
+            var kerrat = 0;
+            var nro = 11;
+
+            for (var i = 1; i <= nro; i++) {
+                if (i > 10) {
+                    kerrat = (kerrat + i);
+                } else {
+                    kerrat = (kerrat + i) + ", ";
+                }
+            }
+            document.getElementById("luvut").innerHTML = kerrat;
+        </script>
+
+</html>
